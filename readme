@@ -1,0 +1,4 @@
+1.首先此程序内嵌了嵌入式数据库sqlite3，初次运行会在当前目录生成Library_database.db文件，运行结束后数据库数据保留，以后如果不restart就沿用之前的数据。
+2.由于linux对数据库操作机制的问题会花费windows下十倍以上的时间。
+3.cd到当前目录直接make即可
+4.对于list-books-by-name与list-books-by-author采用了忽略大小写的关键词搜索（就是说只要书名或者作者包括了输入的字符串就视为匹配）
